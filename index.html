@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMdb Clone</title>
+    <link rel="stylesheet"  href="styles.css" >
+    <script src="https://kit.fontawesome.com/c9192525a6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <h1> IMdbClone</h1>
+    </header>
+
+    <main>
+
+        <div id="container1">
+
+            <div class="search-bar">
+
+                <input type="text" placeholder="Search for movies here..."  name="Search" id="search-box" onkeyup="findMovies()" onclick = "findMovies()">
+    
+                <img src="icons8-search.svg" class="search-icon">
+            
+    
+        
+    
+                <div class="search-list"   id="search-list">
+    
+                    <!-- list here -->
+                        <!-- <div class = "search-list-item">
+                            <div class = "search-item-thumbnail">
+                                <img src = "abc.jpg">
+                            </div>
+                            <div class = "search-item-info">
+                                <h3>Guardians of the Galaxy Vol. 2</h3>
+                                <p>2017</p>
+                            </div>                    
+                        </div> --> 
+    
+            
+                </div>
+    
+            
+            </div>
+
+        
+        
+           <div id="favmovies" class="favmovies">
+               <h1> Favourites: </h1>
+
+               <div id="favcon">
+                
+               </div>
+           </div>
+        
+        </div>
+
+
+            <!-- result container -->
+             <div class = "container">
+                <div class = "result-container">
+                    <div class = "result-grid" id = "result-grid">
+                        <!-- movie information here -->
+                        <!--<div class = "movie-poster">
+                          <img src = "abc.jpg" alt = "movie poster"> 
+                        </div>  
+                         <div class = "movie-info">
+                        <h3 class = "movie-title">Guardians of the Galaxy Vol. 2</h3>
+                            <div class = "movie-misc-info">
+                                Year: 2017  <div class="rating"> <span> Rating: PG-13</span></div> Relesed: 5 May 2017 
+                            </div>
+                            <p class = "genre"><b>Genre:</b> Action, Adventure, Comedy</p>
+                            <p class = "writer"><b>Writer:</b> James Gunn, Don Abnett, Andy Lanning</p>
+                            <p class = "actors"><b>Actors: </b>Chris Pratt, Zoe Saldana, Dave Bautista</p>
+                            <p class = "plot"><b>Plot:</b> The Guardians struggle to keep together as a team while dealing with their personal family issues, notably Star-Lord's ecounter with his father the ambitious celestial being Ego.</p>
+                            <p class = "language"><b>Language:</b> English</p>
+                            <p class = "awards"><b><i class = "fas fa-award"></i></b> Nominated for 1 Oscar</p>  
+                        </div> -->
+                    </div>
+                </div>
+            </div> 
+
+
+
+        <script src="script.js"></script>
+
+    </main>
+    
+</body>
+</html>

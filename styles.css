@@ -1,0 +1,267 @@
+body{
+    background-color: rgba(0, 0, 0, 0.796);
+}
+
+.section{
+    display: inline-block;
+}
+
+
+header{
+    height: 70px;
+    background-color: rgba(245, 245, 220, 0.892);
+    margin: 0px;
+}
+
+header h1{
+    position: relative;
+    top: 25px;
+    left: 20px;
+    font-size: 40px;
+}
+
+/* CSS Properties for Search Bar      */
+
+.search-bar{
+    height: 40px;
+    width: 450px;
+    background-color: beige;
+    display: inline-block;
+    margin-left: 150px;
+    position: relative;
+    top: 20px;
+}
+
+input{
+    height: 38px;
+    width: 400px;
+    border-radius: 0px;
+    border: none;
+    background-color: white;
+}
+
+.search-list{
+    max-height: 200px;
+    overflow-y: scroll;   
+}
+
+.search-icon{
+    height: 20px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+input::placeholder{
+    padding: 10px;
+    font-size: medium;
+}
+
+input:focus{
+    outline: none;
+}
+
+/* CSS properties for search list */
+
+.search-list-item{
+    height: 60px;
+    width: 450px;
+    background-color: white;
+    border-radius: 0px;
+}
+
+.search-list-item:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.search-item-thumbnail img{
+    height: 50px;
+    width: 40px;
+    padding-left: 10px;
+}
+
+.search-item-thumbnail{
+    display: inline-block;
+    width: 50px;
+    position: relative;
+    top: -20px;    
+}
+
+.search-item-info{
+    height: 60px;
+    width: 360px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.search-item-info h3{
+    position: relative;
+    top: -10px;
+}
+
+.search-item-info p{
+    position: relative;
+    top: -25px;
+}
+
+
+/* Css properties for displaying movies details  */
+
+.movie-poster{
+    height: 370px;
+    width: 250px;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    display: inline-block;
+}
+
+.movie-poster img{
+    height: 370px;
+    width: 250px;
+}
+
+.movie-info{
+    display: inline-block;
+    position: relative;
+    left: 300px;
+    color: white;
+    width: 400px;
+    position: relative;
+    top: 185px;
+}
+
+.movie-title{
+    font-size: 30px;
+    color: yellowgreen;
+}
+
+.awards b i{
+    color: yellowgreen;
+}
+
+.genre b{
+    font-weight: bold;
+}
+
+.language{
+    color: yellowgreen;
+}
+
+.rating{
+    display: inline-block;
+    height: 25px;
+    width: 100px;
+    background-color: yellowgreen;
+    border-radius: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.rating span{
+    padding-top: 10px;
+    padding-left: 4px;
+}
+
+.hide-search-list{
+    display: none;
+}
+
+/* CSS properties for favourite movie container */
+
+.favmovies{
+    height: 650px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.311);
+    display: inline-block;
+    margin-left: 498px;
+    overflow-y: scroll;
+
+}
+
+.favmovies h1{
+    color: white;
+    padding-left: 15px;
+}
+
+#container1{
+    display: flex;
+    align-self: flex-start;
+}
+
+.container{
+    margin-top: -650px;
+}
+
+.awards img{
+    height: 20px;
+    margin-left: 80px;
+}
+
+.awards img:hover{
+    cursor: pointer;
+}
+
+.delete{
+    height: 25px;
+    display: inline-block;
+}
+
+/* CSS properties for favourite list item */
+
+.search-list-item1{
+    height: 80px;
+    width: 390px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+.search-item-thumbnail1 img{
+    height: 60px;
+    width: 50px;
+    padding-left: 10px;
+}
+
+.search-item-thumbnail1{
+    display: inline-block;
+    width: 50px;
+    position: relative;
+    top: -5px;
+}
+
+.search-item-info1{
+    height: 60px;
+    width: 250px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.search-item-info1 h3{
+    position: relative;
+    top: -10px;
+}
+
+.search-item-info1 p{
+    position: relative;
+    top: -25px;
+}
+
+.favcon{
+    margin: 10px;
+    overflow: scroll;
+}
+
+.delete-icon{
+    width: 30px;
+    display: inline-block;
+    position: relative;
+    top: -28px;
+}
+
+.delete-icon:hover{
+    cursor: pointer;
+}
+
